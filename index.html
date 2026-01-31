@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Skill - Learn. Grow. Succeed</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        .hero {
+            background-color: #f0f8ff;
+            padding: 80px 50px;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            margin-bottom: 20px;
+            color: #007BFF;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .hero button {
+            padding: 15px 30px;
+            font-size: 18px;
+            margin: 5px;
+            background-color: #ff7f50;
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .courses {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .courses h2 {
+            color: #007BFF;
+            margin-bottom: 50px;
+        }
+
+        .course-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .course-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .course-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .course-card h3 {
+            margin-top: 15px;
+            color: #007BFF;
+        }
+
+        .course-card p {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .course-card span {
+            font-weight: bold;
+            font-size: 18px;
+            color: #ff7f50;
+        }
+
+        .course-card button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .why {
+            background-color: #e6f0ff;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .why h2 {
+            color: #007BFF;
+            margin-bottom: 30px;
+        }
+
+        .why ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .why li {
+            font-size: 18px;
+            margin: 15px 0;
+        }
+
+        .testimonials {
+            padding: 50px;
+            background-color: #f0f8ff;
+            text-align: center;
+        }
+
+        .testimonials h2 {
+            color: #007BFF;
+            margin-bottom: 40px;
+        }
+
+        .testimonial-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+            margin: 20px auto;
+            max-width: 600px;
+        }
+
+        footer {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        @media(max-width: 768px){
+            header {
+                flex-direction: column;
+            }
+
+            nav {
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Easy Skill</h1>
+        <nav>
+            <a href="#courses">Courses</a>
+            <a href="#why">Why Us</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Learn. Grow. Succeed with Easy Skill</h2>
+        <p>Master Web Development, Graphic Design, Shopify, eBay & Digital Marketing — All in One Place</p>
+        <button>Start Learning Today</button>
+        <button>Watch Demo</button>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses" id="courses">
+        <h2>Explore Our Courses</h2>
+        <div class="course-grid">
+            <div class="course-card">
+                <img src="https://via.placeholder.com/300x150.png?text=Web+Development" alt="Web Development">
+                <h3>Web Development</h3>
+                <p>Learn HTML, CSS, JS & build real websites</p>
+                <span>PKR 25,000</span>
+                <button>Enroll Now</button>
+            </div>
+            <div class="course-card">
+                <img src="https://via.placeholder.com/300x150.png?text=Graphic+Design" alt="Graphic Design">
+                <h3>Graphic Design</h3>
+                <p>Canva & Photoshop from scratch</p>
+                <span>PKR 15,000</span>
+                <button>Enroll Now</button>
+            </div>
+            <div class="course-card">
+                <img src="https://via.placeholder.com/300x150.png?text=Shopify+Setup" alt="Shopify Setup">
+                <h3>Shopify Setup</h3>
+                <p>Launch your online store in 1 month</p>
+                <span>PKR 25,000</span>
+                <button>Enroll Now</button>
+            </div>
+            <div class="course-card">
+                <img src="https://via.placeholder.com/300x150.png?text=eBay+Selling" alt="eBay Selling">
+                <h3>eBay Selling</h3>
+                <p>Sell online & earn globally</p>
+                <span>PKR 25,000</span>
+                <button>Enroll Now</button>
+            </div>
+            <div class="course-card">
+                <img src="https://via.placeholder.com/300x150.png?text=Digital+Marketing" alt="Digital Marketing">
+                <h3>Digital Marketing</h3>
+                <p>Social media, Ads & SEO basics</p>
+                <span>PKR 25,000</span>
+                <button>Enroll Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Easy Skill Section -->
+    <section class="why" id="why">
+        <h2>Why Choose Easy Skill?</h2>
+        <ul>
+            <li>Learn at your own pace</li>
+            <li>Weekly live sessions + recorded tutorials</li>
+            <li>One-time payment for lifetime access</li>
+            <li>Certificate included on completion</li>
+        </ul>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <h2>What Our Students Say</h2>
+        <div class="testimonial-card">
+            <p>“Easy Skill helped me start my Shopify store in just 2 weeks!” – Ali</p>
+        </div>
+        <div class="testimonial-card">
+            <p>“I learned Graphic Design from scratch and now I freelance online.” – Sara</p>
+        </div>
+        <div class="testimonial-card">
+            <p>“Web Development course was beginner friendly and practical.” – Ahmed</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="courses" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@easyskill.com | WhatsApp: +92 300 1234567</p>
+        <p>Fill the contact form below:</p>
+        <form>
+            <input type="text" placeholder="Your Name" required style="padding:10px; width:300px;"><br><br>
+            <input type="email" placeholder="Your Email" required style="padding:10px; width:300px;"><br><br>
+            <textarea placeholder="Your Message" required style="padding:10px; width:300px; height:100px;"></textarea><br><br>
+            <button type="submit" style="padding:10px 20px; background-color:#007BFF; color:white; border:none; border-radius:5px;">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Easy Skill. All Rights Reserved.</p>
+        <p>
+            <a href="#">Home</a> | 
+            <a href="#courses">Courses</a> | 
+            <a href="#why">Why Us</a> | 
+            <a href="#testimonials">Testimonials</a> | 
+            <a href="#contact">Contact</a>
+        </p>
+    </footer>
+
+</body>
+</html>
